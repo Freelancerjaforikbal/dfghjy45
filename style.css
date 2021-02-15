@@ -1,0 +1,250 @@
+img{
+    max-width: 100%;
+}
+/*menu*/
+.header {
+    background: #0854b2;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    border-bottom: 1px solid black;
+}
+.leftimg img {
+    width: 353px;
+    padding: 13px 0px;
+    box-shadow: 5px 5px 20px aliceblue;
+}
+.headmenu{
+    text-align: right;
+}
+.headmenu ul{}
+.headmenu ul li{
+    display: inline-block;
+}
+.headmenu ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 10px 0;
+    line-height: 54px;
+    padding: 4px 29px;
+    margin-left: -4px;
+    
+}
+
+.headmenu ul li a:hover{
+    text-decoration: underline;
+    transition: .5s;
+     color: rgba(210, 218, 210, 0.4);
+}
+/* banar */
+.banar{
+    background:url(./menbanar.jpg) no-repeat fixed;
+    background-size: cover;
+    margin-top: 76px;
+}
+.about-section {
+    margin-top: 174px;
+   
+    color: white;
+}
+.about-section h1 {
+    font-size: 74px;
+    font-weight: 501;
+}
+.about-section h2 {
+    font-size: 56px;
+    font-weight: 502;
+}
+.about-section p {
+    font-size: 23px;
+    margin-top: 26px;
+    line-height: 41px;
+}
+.banarimg img {
+    width: 394px;
+    box-shadow: -1px 2px 12px aliceblue;
+    margin-top: 139px;
+    height: 442px;
+}
+.button.bg-primary {
+    font-size: 27px;
+    padding: 10px 44px;
+    margin-bottom: 22px;
+}
+ 
+.banarimg img{}
+
+/* abouty */
+.aboutme{
+    background:url(./aboutbanar.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+.aboutme .ab{
+    margin-top: 56px;
+}
+.aboutme .ab h1 {
+    font-size: 59px;
+    font-weight: 602;
+    margin-bottom: 62px;
+    text-decoration: underline;
+}
+.porichoy{}
+.porichoy h2 {
+    font-weight: 501;
+    margin-bottom: 47px;
+}
+.porichoy img {
+    float: left;
+    width: 243px;
+    height: 367px;
+    margin-right: 47px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px 0;
+}
+.porichoy ul {
+    font-size: 17px;
+    line-height: 32px;
+}
+.porichoy li{
+    list-style: none;
+}
+.kotha{
+    margin-left: 62px;
+}
+.kotha h2 {
+    font-size: 35px;
+    font-weight: 501;
+    margin-bottom: 46px;
+}
+.kotha p{
+    font-size: 17px;
+}
+/* services */
+.services{
+    background: #fafafa;
+    margin-bottom: 10px;
+}
+.services .srvs h1 {
+    font-weight: 601;
+    text-decoration: underline;
+    font-size: 46px;
+}
+.services .boxdiv{
+    box-shadow: 5px 5px 20px 0;
+    border-radius: 5px;
+    margin-right: -12px;
+}
+.services .boxdiv .bol{
+    text-align: center;
+}
+.services .boxdiv .bol i {
+    background: #0275d8;
+    border-radius: 20px 0 20px 0;
+    display: inline-block;
+    height: 56px;
+    width: 46px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 54px;
+    color: #fff;
+    border-radius: 0 10px 0 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.services .boxdiv .proffeson{
+    text-align: center;
+}
+.services .boxdiv .proffeson h1 {
+    font-size: 39px;
+    margin-bottom: 21px;
+}
+.services .boxdiv .proffeson p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/* my work */
+.work{
+     padding: 50px 50px;
+     
+}
+.work .mywk{
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px 20px;
+     
+}
+.work .mywk img{
+    width: 100%;
+}   
+.work .mywk .hoverinnter{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(15, 14, 14, .50);
+    visibility: hidden;
+     transition: .5s;
+     opacity: 0;
+     transform: scale(0);
+}
+.work .mywk .hoverinnter h1{
+    font-size: 32px;
+    margin-top: 50px;
+}
+.mywk:hover .hoverinnter{
+    width: 100%;
+    height: 100%;
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+   
+  
+}
+.work .wk h1{
+    font-weight: 602;
+    text-decoration: underline;
+}
+/* contrayctd */
+.contractd{
+    
+    margin-bottom: 50px;
+}
+.contractd .b{
+    margin-bottom: 50px;
+}
+.contractd .b h1{
+    font-weight: 602;
+    text-decoration: underline;
+    
+}
+.contractd .map{
+    
+}
+.contractd .fom{
+    
+}
+.contractd .text {
+    font-size: 26px;
+    padding: 1px 0;
+    width: 586px;
+    border-radius: 16px;
+    margin-bottom: 7px;
+}
+/* fotterrds */
+.fotter p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+   
+}
